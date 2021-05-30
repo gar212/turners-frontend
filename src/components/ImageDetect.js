@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
+import './css/ImageDetect.css';
 
 const ImageDetect = (props) => {
     const [isLoading, setLoading] = useState(true); // Waits for API to load before displaying result on page
